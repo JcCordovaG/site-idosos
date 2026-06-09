@@ -34,7 +34,7 @@ body {
     color: white;
     text-align: center;
     padding: 1rem;
-    margin-top: 0;
+    margin-top: 2rem;
   }
   img, video {
     max-width: 100%;
@@ -80,17 +80,14 @@ body {
   .home-fundo {
     position: relative;
     overflow: hidden;
-    height: 70vh;
+    height: 70vh; /* 90% da altura da tela */
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 100% !important;
-    box-shadow: none !important;
-    background: none !important;
+    padding: 0;
+    margin: 0;
   }
   
 
@@ -142,6 +139,12 @@ nav a.ativo:hover {
   border-bottom: 2px solid #CAD66B; /* Linha também muda para laranja */
   transform: scale(1.1); /* Dá um leve "zoom" no texto */
 }
+
+
+
+
+
+
 
 
 /* EFEITOS PARA O VIDEO INDEX_VIDEO */
