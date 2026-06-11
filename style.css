@@ -24,8 +24,8 @@ body {
   }
 
   .fita-canto {
-  position: fixed;
-  top: 10px;
+  position: aut;
+  top: 40px;
   left: 20px;
   width: 50px;
   z-index: 9999;
