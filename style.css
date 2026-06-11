@@ -1,6 +1,6 @@
 /* style.css */
 body {
-    margin: 0;
+    margin:0;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
   }
@@ -11,6 +11,16 @@ body {
     padding: 10px;
     text-align: center;
   }
+
+  .fita-canto {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  width: 50px;
+  z-index: 9999;
+  pointer-events: none;
+}
+
 
   nav {
     margin-top: 10px;
@@ -23,7 +33,7 @@ body {
     font-weight: bold;
   }
   .container {
-    margin: 2rem 15%;
+    margin: 0 auto;
     background: white;
     padding: 2rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -33,12 +43,13 @@ body {
     background-color: #AA6BD6;
     color: white;
     text-align: center;
-    padding: 1rem;
-    margin-top: 1rem;
+    padding: 2rem;
+    
+    
   }
   img, video {
     max-width: 100%;
-    margin:0rem 0;
+    margin: 1rem 0;
     display: block;
   }
   @keyframes fadeIn {
